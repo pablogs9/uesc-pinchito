@@ -1,0 +1,24 @@
+Drill report for pinchito_uesc.kicad_pcb
+Created on 2025-01-18T20:22:17+0100
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'pinchito_uesc.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.100mm  0.0039"  (16 holes)
+    T2  0.300mm  0.0118"  (10 holes)
+    T3  1.000mm  0.0394"  (6 holes)
+
+    Total plated holes count 32
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
