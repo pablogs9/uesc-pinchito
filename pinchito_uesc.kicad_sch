@@ -206,108 +206,6 @@
 				)
 			)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "easyeda2kicad:0603WAF1001T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -520,7 +418,7 @@
 				)
 			)
 		)
-		(symbol "easyeda2kicad:AO6604_C5182068"
+		(symbol "easyeda2kicad:AO6604"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -532,196 +430,7 @@
 					)
 				)
 			)
-			(property "Value" "AO6604_C5182068"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "component_lib:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C5182068"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AO6604_C5182068_0_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -3.81 3.81)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "G1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "G2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "easyeda2kicad:AO6604_C709896"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AO6604_C709896"
+			(property "Value" "AO6604"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -738,7 +447,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_VBsemi-Elec-AO6604_C709896.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Alpha-Omega-Semicon_AO6604_Alpha-Omega-Semicon-AOS-AO6604_C47744.html"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -756,7 +465,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C709896"
+			(property "LCSC Part" "C47744"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -765,7 +474,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AO6604_C709896_0_1"
+			(symbol "AO6604_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -1975,16 +1684,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 66.04) (xy 214.63 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a48dfc5-012f-42c8-8aa7-20a323c8b2f9")
-	)
-	(wire
-		(pts
 			(xy 199.39 104.14) (xy 176.53 104.14)
 		)
 		(stroke
@@ -1995,7 +1694,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 104.14) (xy 214.63 104.14)
+			(xy 215.9 104.14) (xy 214.63 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2005,7 +1704,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 161.29) (xy 137.16 161.29)
+			(xy 121.92 156.21) (xy 137.16 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2032,6 +1731,16 @@
 			(type default)
 		)
 		(uuid "21b51c09-4d27-4796-a51a-fc929ed4aeea")
+	)
+	(wire
+		(pts
+			(xy 193.04 68.58) (xy 199.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "272d01b2-f54a-4cd7-934b-56ed01dd5883")
 	)
 	(wire
 		(pts
@@ -2062,6 +1771,16 @@
 			(type default)
 		)
 		(uuid "307eb311-a4ce-4145-bfac-32d603e88c23")
+	)
+	(wire
+		(pts
+			(xy 132.08 158.75) (xy 137.16 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33089af5-2454-4667-9160-4772d26e275a")
 	)
 	(wire
 		(pts
@@ -2265,16 +1984,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 68.58) (xy 199.39 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58f2ea4d-94ae-46cb-8cb0-fad5287e4e35")
-	)
-	(wire
-		(pts
 			(xy 83.82 153.67) (xy 83.82 161.29)
 		)
 		(stroke
@@ -2362,6 +2071,16 @@
 			(type default)
 		)
 		(uuid "7155f62a-199a-4d62-9f18-7fcd1b51d3d5")
+	)
+	(wire
+		(pts
+			(xy 214.63 68.58) (xy 224.79 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7556d4db-70bb-48d3-8048-c77d52a5f4bd")
 	)
 	(wire
 		(pts
@@ -2475,16 +2194,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 68.58) (xy 222.25 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99b23184-aba0-4cf7-b96a-d38d235cb94b")
-	)
-	(wire
-		(pts
 			(xy 74.93 140.97) (xy 77.47 140.97)
 		)
 		(stroke
@@ -2492,6 +2201,16 @@
 			(type default)
 		)
 		(uuid "9dd6227b-2605-4a8a-b2ce-4ad22971ec64")
+	)
+	(wire
+		(pts
+			(xy 217.17 66.04) (xy 214.63 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e68b9d-1e3a-4896-9435-dfb893df46d1")
 	)
 	(wire
 		(pts
@@ -2532,6 +2251,16 @@
 			(type default)
 		)
 		(uuid "a779cbfa-3c8f-4ece-a6dd-71fcbe2df95a")
+	)
+	(wire
+		(pts
+			(xy 217.17 71.12) (xy 214.63 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82ac977-d532-4812-8b9b-4b9557433de1")
 	)
 	(wire
 		(pts
@@ -2755,16 +2484,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 71.12) (xy 214.63 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdf803ee-ebaa-4ec6-a4ee-9bab769f0285")
-	)
-	(wire
-		(pts
 			(xy 167.64 71.12) (xy 167.64 99.06)
 		)
 		(stroke
@@ -2785,7 +2504,7 @@
 	)
 	(text "uESC - Pinchito edition\n(1S - 2A)"
 		(exclude_from_sim no)
-		(at 134.112 26.162 0)
+		(at 134.366 33.02 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -2805,7 +2524,6 @@
 	)
 	(label "FCom"
 		(at 87.63 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2814,20 +2532,8 @@
 		)
 		(uuid "021b3b57-b1c4-404e-90d9-b2d807cd6633")
 	)
-	(label "M_C"
-		(at 217.17 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "068930a8-1f4a-4cc1-a851-770d58161399")
-	)
 	(label "M_A"
-		(at 228.6 33.02 0)
-		(fields_autoplaced yes)
+		(at 255.27 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2836,9 +2542,18 @@
 		)
 		(uuid "0ff98ac2-865d-415d-af75-5b3572992258")
 	)
+	(label "VCC"
+		(at 191.77 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1569374b-644f-4665-8d04-2a24e3e1623c")
+	)
 	(label "RC"
 		(at 39.37 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2847,20 +2562,8 @@
 		)
 		(uuid "1a8eca87-447d-4024-aaa8-2bb9bbc99cd9")
 	)
-	(label "M_B"
-		(at 191.77 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23ebdf9d-393b-4fbd-a2d0-0b9f40fc17e8")
-	)
 	(label "C2CK"
 		(at 106.68 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2871,7 +2574,6 @@
 	)
 	(label "VCC"
 		(at 128.27 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2881,8 +2583,7 @@
 		(uuid "2bc603a3-93db-4075-8609-c1fceda48c16")
 	)
 	(label "M_C"
-		(at 228.6 38.1 0)
-		(fields_autoplaced yes)
+		(at 255.27 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2891,20 +2592,18 @@
 		)
 		(uuid "2da07b4a-db63-4703-ae3e-82a15c91a6cb")
 	)
-	(label "VCC"
-		(at 215.9 71.12 0)
-		(fields_autoplaced yes)
+	(label "M_B"
+		(at 217.17 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3aea9ca7-8a11-4016-8a27-b90e7489fd86")
+		(uuid "451dbaa7-141a-4810-b1bb-c9606bfce9ab")
 	)
 	(label "C2D"
 		(at 125.73 121.92 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2915,7 +2614,6 @@
 	)
 	(label "FCom"
 		(at 128.27 69.85 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2924,9 +2622,18 @@
 		)
 		(uuid "685f1374-de0a-4ddc-97f7-d567ca51b825")
 	)
+	(label "M_A"
+		(at 217.17 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b048fb4-9bdb-4636-a952-27397872ca8d")
+	)
 	(label "M_C"
 		(at 67.31 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2937,7 +2644,6 @@
 	)
 	(label "RC"
 		(at 133.35 68.58 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2946,20 +2652,8 @@
 		)
 		(uuid "6e48ac44-1f9b-4131-9f4d-9b1bc48c600a")
 	)
-	(label "M_C"
-		(at 191.77 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73e1195c-29ff-4573-867e-0ab254a7959e")
-	)
 	(label "VCC"
 		(at 102.87 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2968,31 +2662,8 @@
 		)
 		(uuid "741ca47c-ce38-4fd7-a991-5fbd76f4fbfd")
 	)
-	(label "VCC"
-		(at 215.9 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8269702f-661f-4231-b775-a7dd00e05b4c")
-	)
-	(label "M_B"
-		(at 217.17 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83ca8f7d-af89-4fab-9f50-f111500ffdee")
-	)
 	(label "M_B"
 		(at 77.47 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3003,7 +2674,6 @@
 	)
 	(label "C2CK"
 		(at 121.92 153.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3014,7 +2684,6 @@
 	)
 	(label "M_A"
 		(at 86.36 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3023,9 +2692,28 @@
 		)
 		(uuid "a9d15ebd-6d3c-4929-b99c-6effa8c76c5a")
 	)
+	(label "M_B"
+		(at 217.17 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3074f49-76be-43ce-8608-ad80c4a999e2")
+	)
+	(label "M_C"
+		(at 215.9 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be4abca9-df11-4f9b-9fb6-affb38560e3d")
+	)
 	(label "VCC"
 		(at 69.85 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3035,8 +2723,7 @@
 		(uuid "cf197791-db1c-48e1-8f02-fe546d26c325")
 	)
 	(label "M_B"
-		(at 228.6 35.56 0)
-		(fields_autoplaced yes)
+		(at 255.27 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3045,9 +2732,18 @@
 		)
 		(uuid "cfb065b1-371c-4aa9-86e5-4131ade7b5eb")
 	)
+	(label "VCC"
+		(at 191.77 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d13b4b34-7b7a-485f-a5bf-e7969b019007")
+	)
 	(label "C2D"
-		(at 121.92 161.29 180)
-		(fields_autoplaced yes)
+		(at 121.92 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3056,42 +2752,18 @@
 		)
 		(uuid "d55494c6-cd92-40be-845b-573ac31c21df")
 	)
-	(label "M_A"
-		(at 191.77 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d750498c-5076-4f49-96ff-5c7d6b146e48")
-	)
-	(label "M_A"
-		(at 215.9 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dcfa4fd5-00ac-4827-8ad3-8ee87da24411")
-	)
 	(label "VCC"
-		(at 217.17 90.17 0)
-		(fields_autoplaced yes)
+		(at 193.04 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e74dbc55-0708-4d76-9efa-23fb0ce69fe3")
+		(uuid "e52e0ad9-c2cf-42b4-badb-135c155fe80f")
 	)
 	(label "VCC"
 		(at 38.1 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3099,6 +2771,26 @@
 			(justify left bottom)
 		)
 		(uuid "e77dd4f8-7ef8-45ff-bbaa-b3cd219b18b9")
+	)
+	(label "M_C"
+		(at 215.9 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2f14e54-74a9-44b6-a3d5-475f314ec5dd")
+	)
+	(label "M_A"
+		(at 217.17 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4e35311-5ad1-45f8-922f-50aac7441584")
 	)
 	(symbol
 		(lib_id "easyeda2kicad:0603WAF1001T5E")
@@ -3181,7 +2873,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 223.52 35.56 0)
+		(at 250.19 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3190,23 +2882,23 @@
 		(fields_autoplaced yes)
 		(uuid "134f0e77-dde5-48fd-a416-bd67f56c79d2")
 		(property "Reference" "J1"
-			(at 224.155 27.94 0)
+			(at 250.825 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 224.155 30.48 0)
+		(property "Value" "Motor"
+			(at 250.825 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 223.52 35.56 0)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
+			(at 250.19 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,7 +2907,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 35.56 0)
+			(at 250.19 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +2916,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 223.52 35.56 0)
+			(at 250.19 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,6 +2937,95 @@
 			(project ""
 				(path "/7837e0df-079b-448f-ae11-702cde1f3b94"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:AO6604")
+		(at 207.01 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14cb7def-9d8a-45f7-8050-250cba8681c5")
+		(property "Reference" "Q1"
+			(at 207.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO6604"
+			(at 207.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "component_lib:TSOP-6_L3.0-W1.5-P0.95-LS2.8-BR"
+			(at 207.01 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Alpha-Omega-Semicon_AO6604_Alpha-Omega-Semicon-AOS-AO6604_C47744.html"
+			(at 207.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C47744"
+			(at 207.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4fb69c02-e7b4-4ffb-b74b-92e35e3ccbdc")
+		)
+		(pin "5"
+			(uuid "1b567d1d-415b-4906-b190-84bd56c595c6")
+		)
+		(pin "2"
+			(uuid "163e63eb-5b44-4477-b057-476ce27ec046")
+		)
+		(pin "3"
+			(uuid "c5261904-fbab-4bb6-b0b5-79350c9d8d6f")
+		)
+		(pin "1"
+			(uuid "79136291-3f54-42fb-9d19-c7586071851f")
+		)
+		(pin "6"
+			(uuid "73e4e9b5-43c0-4007-9060-9543ef123f18")
+		)
+		(instances
+			(project "pinchito_uesc"
+				(path "/7837e0df-079b-448f-ae11-702cde1f3b94"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3330,17 +3111,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 222.25 68.58 0)
+		(lib_id "easyeda2kicad:AO6604")
+		(at 207.01 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2be5a75d-0f47-4d31-a7b5-7a37ceaaf64e")
-		(property "Reference" "#PWR05"
-			(at 222.25 74.93 0)
+		(uuid "2570876e-e52e-4e40-8111-bb68c3263b7f")
+		(property "Reference" "Q2"
+			(at 207.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO6604"
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "component_lib:TSOP-6_L3.0-W1.5-P0.95-LS2.8-BR"
+			(at 207.01 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,16 +3145,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 222.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 68.58 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Alpha-Omega-Semicon_AO6604_Alpha-Omega-Semicon-AOS-AO6604_C47744.html"
+			(at 207.01 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,8 +3154,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 222.25 68.58 0)
+		(property "Description" ""
+			(at 207.01 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,22 +3163,37 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 68.58 0)
+		(property "LCSC Part" "C47744"
+			(at 207.01 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "4"
+			(uuid "a28bf621-5c35-4b0e-8761-1a1e472fca7e")
+		)
+		(pin "5"
+			(uuid "ea8ccbfc-e6d4-469b-bf5e-a5b5117b5a79")
+		)
+		(pin "2"
+			(uuid "07c52e74-8396-46db-bdaa-7ef9ada01f6a")
+		)
+		(pin "3"
+			(uuid "39835dc4-be0b-4d3d-8f8c-ce01be5e3a53")
 		)
 		(pin "1"
-			(uuid "88fb72f9-d441-4605-8920-cea7a247dbb9")
+			(uuid "1540b896-7e81-40b0-9c01-7841c149e3a5")
+		)
+		(pin "6"
+			(uuid "9304ff44-b746-4e2a-9653-22ace3d52407")
 		)
 		(instances
 			(project "pinchito_uesc"
 				(path "/7837e0df-079b-448f-ae11-702cde1f3b94"
-					(reference "#PWR05")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3528,33 +3332,17 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:AO6604_C709896")
-		(at 207.01 87.63 0)
+		(lib_id "power:GND")
+		(at 224.79 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4c71ac74-279c-4ad5-b2dc-b2f7c28f7912")
-		(property "Reference" "Q2"
-			(at 207.01 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO6604_C709896"
-			(at 207.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "component_lib:TSOP-6_L3.0-W1.5-P0.95-LS2.8-BR"
-			(at 207.01 97.79 0)
+		(uuid "3ec49696-e585-4970-a2ef-b8bd562406c5")
+		(property "Reference" "#PWR05"
+			(at 224.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,8 +3350,90 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_VBsemi-Elec-AO6604_C709896.html"
-			(at 207.01 100.33 0)
+		(property "Value" "GND"
+			(at 224.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d9ba62d-9702-4e36-8351-4e0491bdb50d")
+		)
+		(instances
+			(project "pinchito_uesc"
+				(path "/7837e0df-079b-448f-ae11-702cde1f3b94"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:AO6604")
+		(at 207.01 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49d5dc68-7cda-4263-b1b5-17e6d096382c")
+		(property "Reference" "Q3"
+			(at 207.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO6604"
+			(at 207.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "component_lib:TSOP-6_L3.0-W1.5-P0.95-LS2.8-BR"
+			(at 207.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Alpha-Omega-Semicon_AO6604_Alpha-Omega-Semicon-AOS-AO6604_C47744.html"
+			(at 207.01 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +3442,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 87.63 0)
+			(at 207.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,37 +3450,37 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C709896"
-			(at 207.01 102.87 0)
+		(property "LCSC Part" "C47744"
+			(at 207.01 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "61a4464e-94fc-4a72-8a6f-88bdda841ff7")
-		)
-		(pin "1"
-			(uuid "5a121388-71c6-41df-adb1-1d95edb53e34")
-		)
-		(pin "2"
-			(uuid "ce718391-0fea-4779-a357-453a0f1d7d2f")
 		)
 		(pin "4"
-			(uuid "8605497b-234c-4633-b5eb-0466ffcb3e30")
-		)
-		(pin "6"
-			(uuid "699bacb0-8185-4737-a6c3-85bc1aa38fa7")
+			(uuid "d3b223f6-52e0-4a1c-9229-511f969d407b")
 		)
 		(pin "5"
-			(uuid "5aa34bad-1911-4ddc-8ec1-26466ab7c5ec")
+			(uuid "c383c194-3924-4426-9c5e-5273fefaf4e1")
+		)
+		(pin "2"
+			(uuid "f718392c-7db4-4b02-a424-12be0f748610")
+		)
+		(pin "3"
+			(uuid "5479f396-12cd-4a07-b06b-c91d58ff9027")
+		)
+		(pin "1"
+			(uuid "f4503807-e997-476c-a6f9-120a2968d191")
+		)
+		(pin "6"
+			(uuid "018d1c83-4ef3-4997-8e47-b29a58fb3df0")
 		)
 		(instances
-			(project "pinchito_uesc"
+			(project ""
 				(path "/7837e0df-079b-448f-ae11-702cde1f3b94"
-					(reference "Q2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -3693,42 +3563,35 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:AO6604_C709896")
-		(at 207.01 68.58 0)
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 142.24 156.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "54421dd5-1c12-43b5-b9e2-0d0bd3e3f806")
-		(property "Reference" "Q1"
-			(at 207.01 58.42 0)
+		(uuid "5a0b9ff1-455c-4954-aa41-8c695f31e7bf")
+		(property "Reference" "J3"
+			(at 143.51 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "AO6604_C709896"
-			(at 207.01 60.96 0)
+		(property "Value" "Prog"
+			(at 143.51 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "component_lib:TSOP-6_L3.0-W1.5-P0.95-LS2.8-BR"
-			(at 207.01 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_VBsemi-Elec-AO6604_C709896.html"
-			(at 207.01 81.28 0)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,8 +3599,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 207.01 68.58 0)
+		(property "Datasheet" "~"
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,126 +3608,28 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C709896"
-			(at 207.01 83.82 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 142.24 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "e055ecab-90d3-4307-9561-b4c1235af373")
-		)
-		(pin "1"
-			(uuid "4800ae1c-ccb1-4907-b928-357290308b4d")
 		)
 		(pin "2"
-			(uuid "96a0e6d7-8edf-4287-ac89-7e6de6226ed1")
-		)
-		(pin "4"
-			(uuid "da911a64-a4da-40be-9704-70382ff8c391")
-		)
-		(pin "6"
-			(uuid "32c7036b-8196-4d62-8b7a-828651cdc49f")
-		)
-		(pin "5"
-			(uuid "2550da28-265a-4bb8-b0ae-23abcc2ecba9")
-		)
-		(instances
-			(project ""
-				(path "/7837e0df-079b-448f-ae11-702cde1f3b94"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:AO6604_C5182068")
-		(at 240.03 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5db39382-2fd1-4b42-b01c-6ecb6343a00d")
-		(property "Reference" "Q6"
-			(at 240.03 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO6604_C5182068"
-			(at 240.03 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "component_lib:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
-			(at 240.03 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5182068"
-			(at 240.03 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "06e3caaf-4e3b-436e-a339-307e2c8a440f")
-		)
-		(pin "5"
-			(uuid "bec4fe1c-e155-4432-949c-dd91944b4522")
-		)
-		(pin "4"
-			(uuid "af7a0f14-7ef9-4977-b6ae-8653324e5654")
-		)
-		(pin "3"
-			(uuid "d70bf851-8d5b-491a-9e07-f4ffdeec9554")
+			(uuid "9e918844-1a77-4dd9-b999-988ecc8d34b1")
 		)
 		(pin "1"
-			(uuid "5e782435-ef7c-4c1e-a94f-671a8ecfec72")
+			(uuid "fb084d44-c8d2-4d54-8ca2-73f377e972e0")
 		)
-		(pin "2"
-			(uuid "70fcffe6-f8ed-4c36-8f1d-19b6df9b32e4")
+		(pin "3"
+			(uuid "faad36d1-cd11-4589-9d55-90048509bd86")
 		)
 		(instances
 			(project "pinchito_uesc"
 				(path "/7837e0df-079b-448f-ae11-702cde1f3b94"
-					(reference "Q6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3937,33 +3702,34 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:AO6604_C5182068")
-		(at 240.03 88.9 0)
+		(lib_id "power:GND")
+		(at 132.08 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "64811aaf-e14f-4f8d-966c-b3dc064e70d2")
-		(property "Reference" "Q5"
-			(at 240.03 78.74 0)
+		(uuid "61c835a4-0071-4491-96a4-be8317259153")
+		(property "Reference" "#PWR09"
+			(at 132.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AO6604_C5182068"
-			(at 240.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "component_lib:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
-			(at 240.03 99.06 0)
+		(property "Footprint" ""
+			(at 132.08 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3972,7 +3738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 88.9 0)
+			(at 132.08 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,46 +3746,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 240.03 88.9 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "LCSC Part" "C5182068"
-			(at 240.03 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "ee8da4e5-53bf-4514-b8a9-4cad5cc7aeeb")
-		)
-		(pin "5"
-			(uuid "2725ebc1-fafe-469c-9722-d69657c715a5")
-		)
-		(pin "4"
-			(uuid "02076b75-54ba-4a6e-8c7d-544477b4a424")
-		)
-		(pin "3"
-			(uuid "f315f9ec-fc1b-4396-b8f1-dc3c8fced46c")
 		)
 		(pin "1"
-			(uuid "3196a8f1-419b-4a2c-88e5-8c4373d4814f")
-		)
-		(pin "2"
-			(uuid "4b67d97b-0c26-4527-b7d9-b2dacef2936a")
+			(uuid "9b9cf476-12c2-4c21-8360-0585664bfdd6")
 		)
 		(instances
 			(project "pinchito_uesc"
 				(path "/7837e0df-079b-448f-ae11-702cde1f3b94"
-					(reference "Q5")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4178,163 +3920,6 @@
 			(project "pinchito_uesc"
 				(path "/7837e0df-079b-448f-ae11-702cde1f3b94"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 137.16 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "757766ee-9669-4416-9f5f-d4a4a47cbeb0")
-		(property "Reference" "TP1"
-			(at 139.7 149.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 139.7 151.6379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 142.24 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 137.16 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e33f38ab-658e-444d-9454-1fd077f40efa")
-		)
-		(instances
-			(project ""
-				(path "/7837e0df-079b-448f-ae11-702cde1f3b94"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:AO6604_C5182068")
-		(at 240.03 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87896407-900f-482e-b2aa-b87271a2009f")
-		(property "Reference" "Q4"
-			(at 240.03 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO6604_C5182068"
-			(at 240.03 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "component_lib:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
-			(at 240.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5182068"
-			(at 240.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "e85c0885-3ae7-4204-9fec-302793470f6c")
-		)
-		(pin "5"
-			(uuid "044bba2b-705a-4f0d-bb3f-8e6cfa088f56")
-		)
-		(pin "4"
-			(uuid "9ae55f3b-dbe0-4dbe-aef5-137a1da8d582")
-		)
-		(pin "3"
-			(uuid "4814eefc-ed11-458b-a232-24f0d3ce9da4")
-		)
-		(pin "1"
-			(uuid "19d16d73-bbf6-4fe2-b6f1-720d9ef1bce0")
-		)
-		(pin "2"
-			(uuid "3f8de4dd-f1b9-45af-a572-fcb9a93341a3")
-		)
-		(instances
-			(project ""
-				(path "/7837e0df-079b-448f-ae11-702cde1f3b94"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4847,7 +4432,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Pin"
+		(property "Value" "Power"
 			(at 33.655 50.8 0)
 			(effects
 				(font
@@ -4855,7 +4440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
 			(at 33.02 55.88 0)
 			(effects
 				(font
@@ -4895,95 +4480,6 @@
 			(project "pinchito_uesc"
 				(path "/7837e0df-079b-448f-ae11-702cde1f3b94"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:AO6604_C709896")
-		(at 207.01 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cdab1091-69a6-40d9-9266-a7bd18aecb91")
-		(property "Reference" "Q3"
-			(at 207.01 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO6604_C709896"
-			(at 207.01 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "component_lib:TSOP-6_L3.0-W1.5-P0.95-LS2.8-BR"
-			(at 207.01 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_VBsemi-Elec-AO6604_C709896.html"
-			(at 207.01 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C709896"
-			(at 207.01 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0e6ada66-4640-4a79-9619-9056b0fbbf10")
-		)
-		(pin "1"
-			(uuid "f4375022-5c34-4fc9-bc28-8cdfe29e94c9")
-		)
-		(pin "2"
-			(uuid "c552d7fb-3f6d-4ae6-9e6b-b6675d040669")
-		)
-		(pin "4"
-			(uuid "1f3fa127-5bb4-48ce-94e9-bd926f7189a9")
-		)
-		(pin "6"
-			(uuid "a2d5c774-6468-4ad3-9496-22bf54104119")
-		)
-		(pin "5"
-			(uuid "6f3afd3e-ef82-4bc9-9e5e-0b6cc6c83e59")
-		)
-		(instances
-			(project "pinchito_uesc"
-				(path "/7837e0df-079b-448f-ae11-702cde1f3b94"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -5208,74 +4704,6 @@
 			(project ""
 				(path "/7837e0df-079b-448f-ae11-702cde1f3b94"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 137.16 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc037e42-e1be-4b52-ba8f-cb4cdbb43759")
-		(property "Reference" "TP2"
-			(at 139.7 156.7179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 139.7 159.2579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 142.24 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 137.16 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d395f08-0c50-422c-a50e-df6e27240d04")
-		)
-		(instances
-			(project "pinchito_uesc"
-				(path "/7837e0df-079b-448f-ae11-702cde1f3b94"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
